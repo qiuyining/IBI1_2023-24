@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a=40
 b=36
 c=30
@@ -18,3 +19,6 @@ W=not (X and Y) and (X or Y)
 print(W)
 
 # Z is true.
+=======
+
+>>>>>>> 9fa81a51931ff3586a1b1d2d8c103dfb329549ea
