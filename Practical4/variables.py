@@ -12,15 +12,10 @@ else:
 
 # e is greater than d.The combination of running and strength exercises had a greater improvement on running time.
     
-X=True 
-Y=False
+X=1>0
+Y=1<0
 W=not (X and Y) and (X or Y)
 print(W)
 
 # Z is true.
-# truth table:
-# X    Y     W
-#True  True  False
-#True  False True
-#False True  True
-#False False False
+
