@@ -19,3 +19,8 @@ print(W)
 
 # W is true.
 
+#X    Y     W
+#True True False
+#True False True
+#False True True
+#False False False
