@@ -1,0 +1,8 @@
+Question:
+Plot a boxplot of DALYs across countries in 2019.
+
+The plotting code begins at line number 61
+
+Discussion:
+The boxplot provides a visual summary of the DALYs distribution across countries in 2019.
+It shows that the DALYs varies widely from country to country.
