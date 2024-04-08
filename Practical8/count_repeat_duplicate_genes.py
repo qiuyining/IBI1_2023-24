@@ -10,7 +10,7 @@ for line in input_file:
     if line.startswith('>'):
         if gene_name and repetitive_sequence in gene_sequence:
             repeat_count = gene_sequence.count(repetitive_sequence)
-            output_file.write(f">{gene_name} {repeat_count}\n")
+            output_file.write(f">{gene_name} {repeat_count}\n{gene_sequence}\n")
                
         gene_name = line.strip().split()[0][1:]  
         
