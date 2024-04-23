@@ -1,5 +1,5 @@
 Hello. 
 My name is Qiu Yining.
 I like sleeping.
-I am enjoying learning IBI1  
-I am happy that I can push my repo from Visual Studio Code to GitHub
+I am enjoying learning IBI1.
+I am happy that I can push my repo from Visual Studio Code to GitHub.
