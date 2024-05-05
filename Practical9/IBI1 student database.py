@@ -12,4 +12,3 @@ class Student:
 # example 
 student = Student("A", "BMI", 100, 100, 100)
 student.print_details()
-
