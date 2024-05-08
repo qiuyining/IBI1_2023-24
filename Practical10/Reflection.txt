@@ -1,0 +1,3 @@
+This practical was hard.
+I enjoy seeing the results of the program running normally after fixing the bugs.
+I learned how to loop over 1000 time points to pick individuals at random. 
