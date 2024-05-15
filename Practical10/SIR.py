@@ -41,6 +41,7 @@ for i in range(1000):
     infected.append(I)
     recovered.append(R)
 
+# show the figure of SIR model
 plt.figure(figsize =(6 ,4) , dpi=150)
 plt.plot(susceptible, label='Susceptible')
 plt.plot(infected, label='Infected')
@@ -49,6 +50,6 @@ plt.title('SIR Model')
 plt.xlabel('time')
 plt.ylabel('number of People')
 plt.legend()
-plt.savefig("D:/IBI/IBI_git/IBI1_2023-24/Practiacl10/SIR_figure.png", format="png")
+plt.savefig("D:/IBI/IBI_git/IBI1_2023-24/Practical10/SIR_figure.png", format="png")
 plt.show()
 plt.clf ()

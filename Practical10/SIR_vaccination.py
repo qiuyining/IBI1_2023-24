@@ -2,10 +2,14 @@
 import numpy as np
 import matplotlib . pyplot as plt
 
+#Set value for the percentage of people vaccinated
 vaccination_rates=np.arange(0.1, 1.1, 0.1)
+
+# show the figure
 plt.figure(figsize =(6 ,4) , dpi=150)
+
 for rate in vaccination_rates:
-    # efine the basic variables 
+    # define the basic variables 
     N = 10000  # total population
     I = 1      # initial number of infected people
     R = 0      # initial number of recovered people
@@ -45,13 +49,14 @@ for rate in vaccination_rates:
         infected.append(I)
         recovered.append(R)
 
+    # show the figure
     plt.plot(infected, label=f'{rate*100:.0f}%') 
 
 plt.title('SIR Model with different vaccination rates')
 plt.xlabel('time')
 plt.ylabel('number of People')
 plt.legend()
-plt.savefig("D:/IBI/IBI_git/IBI1_2023-24/Practiacl10/SIR_figure_different_rates.png", format="png")
+plt.savefig("D:/IBI/IBI_git/IBI1_2023-24/Practical10/SIR_figure_different_rates.png", format="png")
 plt.show()
 plt.clf ()
      
