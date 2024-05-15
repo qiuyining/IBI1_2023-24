@@ -1,0 +1,8 @@
+The alignment score for human-mouse sequence is 3137.0.
+The percentage of identical amino for human-mouse sequence is  92.53968253968254%.
+The alignment score for human-rat sequence is 3107.0.
+The percentage of identical amino for human-rat sequence is91.74603174603175%. 
+The alignment score for mouse-rat sequence is 3261.0.
+The percentage of identical amino for mouse-rat sequence is 96.82539682539682%.
+The sequences of rat and mouse are most closely related.
+Mouse is a better model organism for human based on the	data analysed here, because Their sequences are closer to humans.
