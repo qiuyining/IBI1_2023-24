@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib . pyplot as plt
 
-# efine the basic variables 
+# define the basic variables 
 N = 10000  # total population
 I = 1      # initial number of infected people
 R = 0      # initial number of recovered people
