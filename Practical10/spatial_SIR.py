@@ -1,3 +1,4 @@
+# import necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -5,11 +6,15 @@ beta = 0.3  # Infection rate
 gamma = 0.05  # Recovery rate
 desired_time_steps = [0, 10, 50, 100]
 
+# Create a 100x100 grid initialized to zero
 population = np.zeros((100, 100))
 
+# Randomly pick an outbreak starting point
 outbreak = np.random.choice(range(100), 2)
+# Initialize the outbreak point as infected
 population[outbreak[0], outbreak[1]] = 1
 
+# Simulate the process for 100 time steps
 for t in range(100): 
     # Find infected points
     infectedIndex = np.where(population == 1)
